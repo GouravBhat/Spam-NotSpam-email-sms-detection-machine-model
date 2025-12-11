@@ -10,8 +10,8 @@ from sklearn.ensemble import RandomForestClassifier
 import nltk
 from sklearn.metrics import accuracy_score,precision_score,confusion_matrix
 nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('punkt_tab')
+
+
 import string
 import os
 import joblib
