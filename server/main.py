@@ -6,6 +6,7 @@ import string
 from flask_cors import CORS
 from nltk.corpus import stopwords
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 MODEL_FILE="model.pkl"
 TLI_DF="TLI_df.pkl"
